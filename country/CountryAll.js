@@ -1,7 +1,13 @@
 const {sql,poolPromise}=require('../database')
 
 module.exports={
-    CountryAll:{
+    CountryAll:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
         
     }
 } 

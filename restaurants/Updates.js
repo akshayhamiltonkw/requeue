@@ -2,77 +2,222 @@ const {sql,poolPromise}=require('../database')
 
 
 module.exports={
-    holdStatus:{
+    holdStatus:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    cancelReasonRequired:{
+    cancelReasonRequired:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    maxChairs:{
+    maxChairs:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    branchStatus:{
+    branchStatus:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    BranchOpen:{
+    BranchOpen:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    customeMessage:{
+    customeMessage:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    autoMessage:{
+    autoMessage:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    branchFull:{
+    branchFull:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    inSideFull:{
+    inSideFull:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    outSideFull:{
+    outSideFull:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    inSideActive:{
+    inSideActive:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
+
 
     },
-    outSideActive:{
+    outSideActive:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
         
     },
   
-    enableQueueTags:{
+    enableQueueTags:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
         
     },
-    autoHold:{
+    autoHold:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    autoCancel:{
+    autoCancel:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    inSideName:{
+    inSideName:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    outSideName:{
+    outSideName:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    inSideAutoFull:{
+    inSideAutoFull:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    outSideAutoFull:{
+    outSideAutoFull:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    hideInside:{
+    hideInside:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    hideOutSide:{
+    hideOutSide:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    hideAnyArea:{
+    hideAnyArea:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    addWorkingHoures:{
+    addWorkingHoures:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    updateWorkingHours:{
+    updateWorkingHours:async(req,res)=>{
+        try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     }
 }

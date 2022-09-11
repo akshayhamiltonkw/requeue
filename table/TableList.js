@@ -1,19 +1,49 @@
 const {sql,poolPromise}=require('../database')
 
 module.exports={
-    List:{
+    List:async(req,res)=>{
+         try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    statistics:{
+    statistics:async(req,res)=>{
+         try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    busy:{
+    busy:async(req,res)=>{
+         try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    release:{
+    release:async(req,res)=>{
+         try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     },
-    tags:{
+    tags:async(req,res)=>{
+         try{
+
+        }catch(error){
+           console.log(error)
+   
+        }
 
     }
 }

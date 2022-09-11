@@ -7,12 +7,12 @@ const {History} = require('../notification/History');
 
 const {List,statistics,busy,release,tags}=require('../table/TableList')
 
-const {queue,GetByClient,hold,history,statistics,editChairs,editNote,call,callStatus,notify,notifyReset,sendMessage,hold,cancel, seat,add } = require('../queue/Queue');
+const {queue,GetByClient,Hold,history,Statistics,editChairs,editNote,call,callStatus,notify,notifyReset,sendMessage,hold,cancel, seat,add } = require('../queue/Queue');
 
 
 
 
-const {summary,areas,tags,setting} = require('../restaurants/Restaurants');
+const {summary,areas,Tags,setting} = require('../restaurants/Restaurants');
 
 const {holdStatus,cancelReasonRequired,maxChairs,branchStatus,BranchOpen,customeMessage,autoMessage,branchFull,inSideFull,outSideFull,inSideActive,outSideActive,enableQueueTags,autoHold,autoCancel,inSideName,outSideName,inSideAutoFull,outSideAutoFull,hideInside,hideOutSide,hideAnyArea,addWorkingHoures,updateWorkingHours}=require('../restaurants/Updates');
 
@@ -34,9 +34,9 @@ router.post('/host/notification/history',History);
 
 //queue get
 router.get('/host/queue/queue',queue);
-router.get('/host/queue/hold',hold);
+router.get('/host/queue/Hold',Hold);
 router.get('/host/queue/history',history);
-router.get('/host/queue/statistic',statistics);
+router.get('/host/queue/Statistic',Statistics);
 
 //queue post
 router.post('/host/queue/GetByClient',GetByClient);
@@ -53,10 +53,11 @@ router.post('/host/queue/seat',seat);
 router.post('/host/queue/add',add);
 
 
+
 //Restarunts get
 router.get('/host/restaurant/summary',summary);
 router.get('/host/restaurant/areas',areas);
-router.get('/host/restaurant/tags',tags);
+router.get('/host/restaurant/Tags',Tags);
 router.get('/host/restaurant/setting',setting);
 
 
@@ -86,18 +87,18 @@ router.post('/host/restaurant/update/hideAnyArea',hideAnyArea);
 router.post('/host/restaurant/update/addWorkingHoures',addWorkingHoures);
 router.post('/host/restaurant/update/updateWorkingHours',updateWorkingHours);
 
-//table list
+// //table list
 router.get('/host/table/List',List);
-router.get('/host/table/Statistics',statistics);
+router.get('/host/table/statistics',statistics);
 router.post('/host/table/busy',busy);
 router.post('/host/table/release',release);
 router.post('/host/table/tags',tags);
 
-//testing
+// //testing
 router.get('/host/Get/GetRestaurants',GetRestaurants);
 
 
-//client 
+// //client 
 router.post('/host/client/create',create);
 router.get('/host/client/GetByMobile',GetByMobile);
 router.get('/host/client/GetById',GetById);
@@ -107,5 +108,5 @@ router.post('/host/account/Login',Login);
 router.post('/host/account/Login_LocalHost',Login_LocalHost);
 
 
-
+module.exports=router
 

@@ -2,7 +2,7 @@ const express =require('express');
 const cors=require('cors');
 require('dotenv').config();
 
-const HostRoute=require('./routes/HostControler');
+const HostRoute=require('./routes/API');
 
 const app = express();
 app.use(cors());
@@ -19,3 +19,5 @@ else
 console.log('Server started running on : ' + port)
 })
 
+//github token
+// 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
